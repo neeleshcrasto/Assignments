@@ -59,12 +59,4 @@ if n > 1:
 print('The product is ', product)
 
 
-
-
-
-
-
-
-
-
 # check if number is prime & print it out
