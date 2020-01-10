@@ -14,14 +14,15 @@ def normalproc(x,y):
 
 # Function: create matrix using numpy library 
 def numpyproc(x,y):
-    c = np.zeros((y,x))
+    c = np.zeros((y))
+    print(c)
     for i in range(0,x):
         r = []
         for j in range(0,y):
-            temp = r.append(i*j)
-        print(temp)
-        c = np.append(c, temp, axis=1)
-    print('The matrix is',c)
+            r.append(i*j)
+        print('line',r)
+        np.concatenate((c, r))
+    print('The matrix is',c,'This shit doesn\'t work')
 
 # Actual processing of the inputs
 

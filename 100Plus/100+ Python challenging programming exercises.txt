@@ -172,7 +172,7 @@ print ','.join(value)
 #----------------------------------------#
 
 #----------------------------------------#
-Question 7 - 
+Question 7 - Solved. But More to Do
 Level 2
 
 Question:
@@ -202,7 +202,7 @@ print multilist
 #----------------------------------------#
 
 #----------------------------------------#
-Question 8
+Question 8 - Solved
 Level 2
 
 Question:
@@ -222,7 +222,7 @@ print ','.join(items)
 #----------------------------------------#
 
 #----------------------------------------#
-Question 9
+Question 9 - Solved
 Level 2
 
 Question£º
