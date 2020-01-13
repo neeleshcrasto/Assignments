@@ -15,10 +15,10 @@ for i in range(x,y):
         elif number%2 != 0:
             number = 1
         newnumlist.append(number)
-    print(newnumlist)
-    print(i)
-    if all(newnumlist == 0 for newnum in newnumlist for numbers in newnum):
+    # print(newnumlist)
+    if sum(newnumlist) == 0:
         newlist.append(i)
+    # print(i)
 
 print(newlist)
 
