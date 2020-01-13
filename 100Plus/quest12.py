@@ -8,12 +8,16 @@ x, y = map(int, input('Enter the range between which you want to find the number
 newlist = []
 for i in range(x,y):
     numberlist = [int(j) for j in str(i)]
+    newnumlist = []
     for number in numberlist:
-        # print(number)
         if number == 0 or number%2 == 0:
-            continue
+            number = 0
         elif number%2 != 0:
-            break
+            number = 1
+        newnumlist.append(number)
+    print(newnumlist)
+    print(i)
+    if all(newnumlist == 0 for newnum in newnumlist for numbers in newnum):
         newlist.append(i)
 
 print(newlist)

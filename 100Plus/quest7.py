@@ -1,3 +1,9 @@
+#-------------------------------------------------------------------------------------#
+## This takes 2 digits, X,Y as input and generates a 2-dimensional array. ##
+## The element value in the i-th row and j-th column of the array should be i*j ##
+#-------------------------------------------------------------------------------------#
+
+
 import numpy as np
 
 option = int(input('What do you want to use? Numpy(1) or Normal(2)'))
