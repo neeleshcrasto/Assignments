@@ -251,7 +251,7 @@ for sentence in lines:
 #----------------------------------------#
 
 #----------------------------------------#
-Question 10
+Question 10 - Solved
 Level 2
 
 Question:
@@ -272,7 +272,7 @@ print " ".join(sorted(list(set(words))))
 #----------------------------------------#
 
 #----------------------------------------#
-Question 11
+Question 11 - Solved
 Level 2
 
 Question:
@@ -298,7 +298,7 @@ print ','.join(value)
 #----------------------------------------#
 
 #----------------------------------------#
-Question 12
+Question 12 - Solved
 Level 2
 
 Question:
@@ -318,7 +318,7 @@ print ",".join(values)
 #----------------------------------------#
 
 #----------------------------------------#
-Question 13
+Question 13 - Solved
 Level 2
 
 Question:
@@ -347,7 +347,7 @@ print "DIGITS", d["DIGITS"]
 #----------------------------------------#
 
 #----------------------------------------#
-Question 14
+Question 14 - Solved
 Level 2
 
 Question:
@@ -376,7 +376,7 @@ print "LOWER CASE", d["LOWER CASE"]
 #----------------------------------------#
 
 #----------------------------------------#
-Question 15
+Question 15 - Solved
 Level 2
 
 Question:
@@ -399,7 +399,7 @@ print n1+n2+n3+n4
 #----------------------------------------#
 
 #----------------------------------------#
-Question 16
+Question 16 - Solved
 Level 2
 
 Question:
@@ -418,7 +418,7 @@ numbers = [x for x in values.split(",") if int(x)%2!=0]
 print ",".join(numbers)
 #----------------------------------------#
 
-Question 17
+Question 17 - Solved
 Level 2
 
 Question:
@@ -457,7 +457,7 @@ print netAmount
 #----------------------------------------#
 
 #----------------------------------------#
-Question 18
+Question 18 - 
 Level 3
 
 Question:
