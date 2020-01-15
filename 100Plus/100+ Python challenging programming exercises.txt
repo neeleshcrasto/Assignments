@@ -457,7 +457,7 @@ print netAmount
 #----------------------------------------#
 
 #----------------------------------------#
-Question 18 - 
+Question 18 - Solved
 Level 3
 
 Question:
@@ -505,7 +505,7 @@ print ",".join(value)
 #----------------------------------------#
 
 #----------------------------------------#
-Question 19
+Question 19 - Solved
 Level 3
 
 Question:

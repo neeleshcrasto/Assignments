@@ -11,10 +11,12 @@
 import re
 
 passwd = str(input('Enter your password: '))
-x = re.search("@", passwd)
-print(x)
+w = re.findall(r'[$#@]', passwd)
+x = re.findall(r'[a-z]', passwd) 
+y = re.findall(r'[A-Z]', passwd)
+z = re.findall(r'[0-9]', passwd)
 
-if 6 < len(passwd) < 12 and passwd.isalpha() and passwd.isdigit() and True:
+if 6 < len(passwd) < 12 and w and x and y and z:
     print('Your password is accepted')
 else:
     print('Password rejected')
