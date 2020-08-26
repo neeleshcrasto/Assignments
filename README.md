@@ -1,2 +1,2 @@
 # Assignments
-Learning Python and completing as many assignments as possible
+Learning languages and completing as many assignments as possible
